@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dictionary from "./Dictionary";
 import logo from "./logo.png";
 import "./App.css";
 
@@ -8,6 +9,9 @@ function App() {
       <header className="App-header">
         <div className="container">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
+          <main>
+            <Dictionary />
+          </main>
           <footer className="text-center text-muted pb-3">
             This is an open-sourced code on
             <a
