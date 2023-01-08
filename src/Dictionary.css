@@ -4,6 +4,27 @@
 .Dictionary section {
   background: white;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: 3px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  box-shadow: 1px 7px 10px rgba(77, 76, 76, 0.1);
+  margin: 20px 0;
+}
+.Dictionary .search-window {
+  width: 100%;
+  padding: 12px 7px;
+  border: 1px solid rgb(188, 185, 185);
+  border-radius: 5px;
+  color: #585558;
+  margin: 10px 0;
+}
+.Dictionary label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.Dictionary .examples-words {
+  font-size: 12px;
+}
+.Dictionary label {
+  font-weight: 600;
+  opacity: 0.9;
 }

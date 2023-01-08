@@ -1,0 +1,30 @@
+.Meaning h3 {
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.Meaning .definition {
+  font-weight: 500;
+  opacity: 0.95;
+}
+
+.Meaning .examples {
+  font-style: italic;
+  opacity: 0.7;
+  line-height: 2;
+  margin-left: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.Synonyms {
+  margin: 18px 0 0;
+  padding: 0;
+}
+.Synonyms strong {
+  color: #bf9b30;
+}
+.Synonyms li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 13px;
+}
