@@ -10,7 +10,7 @@ function App() {
         <div className="container">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
           <main>
-            <Dictionary />
+            <Dictionary defaultKeyword="mountain" />
           </main>
           <footer className="text-center text-muted pb-3">
             This is an open-sourced code on
