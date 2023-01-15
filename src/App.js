@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <div className="container">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
-          <h1 className="text-center">Dictionary</h1>
+          <h1 className="text-center title">Dictionary</h1>
           <main>
             <Dictionary defaultKeyword="mountain" />
           </main>
