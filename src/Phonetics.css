@@ -1,21 +1,14 @@
 .Phonetics {
   height: 65px;
 }
-.Phonetics a {
-  border: 1px solid rgb(219, 217, 217);
-  text-decoration: none;
-  padding: 11px 22px;
-  border-radius: 20px;
-  margin: 0 10px;
-  transition: all 160ms ease-in-out;
-  font-size: 15px;
-  font-weight: bold;
+.Phonetics .audio-player {
+  border: none;
+  margin: 0 20px;
 }
-.Phonetics a:hover {
-  background: #bf9b30;
-  color: white;
-}
+
 .Phonetics .pronounciation {
   font-weight: bold;
   opacity: 0.5;
+  font-size: 20px;
+  padding: 13px 0;
 }
