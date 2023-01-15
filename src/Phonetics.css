@@ -1,11 +1,3 @@
-.Phonetics {
-  height: 65px;
-}
-.Phonetics .audio-player {
-  border: none;
-  margin: 0 20px;
-}
-
 .Phonetics .pronounciation {
   font-weight: bold;
   opacity: 0.5;
